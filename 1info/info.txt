@@ -1,0 +1,7 @@
+
+
+Date: 2023.01.18 - 2023.02.21
+Tech: html, css
+Status: alfa
+
+Сайт полукопия https://www.bloodandsweat.ru/ без адаптивности

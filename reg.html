@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="author" content="Krillan">
+  <meta name="description" content="Тестовый сайт">
+  <meta name="keywords" content="тест,html,css">
+
+  <link rel="stylesheet" href="css/main.css" type="text/css" media="all">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+  <title>test_2_website_html_css</title>
+</head>
+
+<body>
+
+  <main>
+    <div class="logo_small">
+      <a href="index.html"><img src="img/logo_small.webp"></a>
+    </div>
+
+    <header>
+      <div id="up_header">
+        <a href="enter.html" id="enter" class="left">Вход</a>
+        <select class="right" id="lang_select">
+          <option value="EN">EN</option>
+          <option value="RU">RU</option>
+        </select>
+        <div id="date" class="right">Среда, 18е января</div>
+      </div>
+
+      <div class="clear"></div>
+
+      <!-- Для всех страниц кроме главной -->
+      <div id="mid_header"></div>
+      
+      <div id="down_header">
+        <menu>
+          <li>
+            <a href="news.html">НОВОСТИ</a>
+            <ul>
+              <li>
+                <a href="#">РЕЗУЛЬТАТЫ</a>
+                <ul>
+                  <li><a href="#">UFC</a></li>
+                  <li><a href="#">PRIDE</a></li>
+                  <li><a href="#">ДРУГИЕ</a></li>
+                </ul>
+              </li>
+              <li><a href="#">ИНТЕРВЬЮ</a></li>
+              <li><a href="#">ОПРОСЫ</a></li>
+              <li><a href="#">АНАЛИТИКА</a></li>
+              <li><a href="#">ФОТО</a></li>
+              <li><a href="#">ДЕВУШКИ ММА</a></li>
+            </ul>
+          </li>
+          <li><a href="video.html">ВИДЕО</a></li>
+          <li>
+            <a href="#">РАСПИСАНИЕ</a>
+            <ul>
+              <li><a href="#">UFC</a></li> 
+              <li><a href="#">PRIDE</a></li>
+              <li><a href="#">STRIKEFORCE </a></li>
+              <li><a href="#">BELLATOR</a></li>
+            </ul>
+          </li>
+          <li><a href="#">ТРЕНИРОВКИ</a></li>
+          <li>
+            <a href="#">СООБЩЕСТВО</a>
+            <ul>
+              <li><a href="#">YOUTUBE</a></li>
+              <li><a href="#">ВКОНТАКТЕ</a></li>
+            </ul>
+          </li>
+          <li><a href="#">КОНТАКТЫ</a></li>
+        </menu>
+
+        <input id="finder" type="text" placeholder="поиск...">
+        <input id="finer_button" type="button" value="P">
+      </div>
+    </header>
+
+    <div id="main_center">
+      <div class="decorate_h">
+        <div class="left dh1"><h2>Регистрация</h2></div>
+      </div>
+
+      <!--  Уникальная часть reg.html -->
+      <script src="https://use.fontawesome.com/7599d4c6a9.js"></script>
+      <!-- подключаем фонтавесоме -->
+      <form>
+        <label for="username">
+          <p><b>Username</b> <span title="Обязательно">*</span></p>
+        </label>
+        <input type="text" id="username" class="inps">
+        <label for="name"><p><b>Имя</b></p></label>
+        <input type="text" id="name" class="inps">
+        <label for="sename"><p><b>Фамилия</b></p></label>
+        <input type="text" id="sename" class="inps">
+        <label for="enter_mail">
+          <p><b>Адрес электронной почты</b></p>
+        </label>
+        <input type="email" id="enter_mail">
+        <label for="enter_password">
+          <p><b>Пароль</b> <span title="Обязательно">*</span></p>
+        </label>
+        <input type="password" id="enter_password">
+        <label for="ag_password">
+          <p class="sticker">
+            <b>Подтвердить пароль</b> <span title="Обязательно">*</span>
+             <i class="fa fa-question-circle" aria-hidden="true" title="Пароль должен содержать не менее 8 символов, 1 букву в верхнем регистре, 1 в нижнем и одну цифру"></i>
+          </p>
+        </label>
+        <input type="password" id="ag_password" class="inps">
+        <div id="enter_buttons">
+          <input type="button" value="Регистрация">
+          <a href="enter.html">Вход</a>
+        </div>
+      </form>
+
+    </div>
+
+    <aside>
+      <div class="aside recl" id="aside1">Реклама</div>
+      <div class="clear"></div>
+      <div class="decorate_h">
+        <div class="left dh1">Обучающее видео</div>
+      </div>
+      <div class="clear"></div>
+      <div class="aside video" id="aside2">Видео</div>
+      <div class="aside video" id="aside3">Видео</div>
+      <div class="aside video" id="aside4">Видео</div>
+      <div class="aside recl" id="aside5">Реклама</div>
+      <div class="clear"></div>
+      <div class="decorate_h">
+        <div class="left dh1">Популярные теги</div>
+      </div>
+      <div class="clear"></div>
+      <div class="aside tags" id="aside6">Теги</div>
+      <div class="clear"></div>
+      <div class="decorate_h">
+        <div class="left dh1">Свежее видео</div>
+      </div>
+      <div class="clear"></div>
+      <div class="aside video" id="aside7">Видео</div>
+      <div class="aside video" id="aside8">Видео</div>
+      <div class="aside video" id="aside9">Видео</div>
+    </aside>
+
+    <div class="clear"></div>
+
+    <div id="up_footer">
+      <div>
+        <a href="news.html">НОВОСТИ</a>
+        <ul>
+          <li>
+            <a href="#">РЕЗУЛЬТАТЫ</a>
+            <ul>
+              <li><a href="#">UFC</a></li>
+              <li><a href="#">PRIDE</a></li>
+              <li><a href="#">ДРУГИЕ</a></li>
+            </ul>
+          </li>
+          <li><a href="#">ИНТЕРВЬЮ</a></li>
+          <li><a href="#">ОПРОСЫ</a></li>
+          <li><a href="#">АНАЛИТИКА</a></li>
+          <li><a href="#">ФОТО</a></li>
+          <li><a href="#">ДЕВУШКИ ММА</a></li>
+        </ul>
+      </div>
+      <div><a href="video.html">ВИДЕО</a></div>
+      <div>
+        <a href="#">РАСПИСАНИЕ</a>
+        <ul>
+          <li><a href="#">UFC</a></li> 
+          <li><a href="#">PRIDE</a></li>
+          <li><a href="#">STRIKEFORCE </a></li>
+          <li><a href="#">BELLATOR</a></li>
+        </ul>
+      </div>
+      <div><a href="#">ТРЕНИРОВКИ</a></div>
+      <div>
+        <a href="#">СООБЩЕСТВО</a>
+        <ul>
+          <li><a href="#">YOUTUBE</a></li>
+          <li><a href="#">ВКОНТАКТЕ</a></li>
+        </ul>
+      </div>
+      <div><a href="#">КОНТАКТЫ</a></div>
+      <div><a href="index.html">НА ГЛАВНУЮ</a></div>
+    </div>
+
+    <footer>
+      <center>
+      <br><p>2023 © BLOOD&SWEAT. ПРИ ИСПОЛЬЗОВАНИИ ЛЮБЫХ МАТЕРИАЛОВ САЙТА ИНДЕКСИРУЕМАЯ ПОИСКОВЫМИ СИСТЕМАМИ ССЫЛКА НА САЙТ ОБЯЗАТЕЛЬНА</p><br>
+      <a href="#">ПОЛИТИКА КОНФИДЕЦИАЛЬНОСТИ</a>
+      </center>
+    </footer>
+  </main>
+  
+</body>
+
+</html>
